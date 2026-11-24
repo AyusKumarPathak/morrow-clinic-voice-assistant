@@ -210,15 +210,3 @@ Confirm the key is active and has access to the selected model/voice and require
 
 The seed data creates upcoming weekday slots. It skips Sundays and slots less than 30 minutes ahead. Restarting the services does not reset an existing database. To reseed a clean demo database, stop both backend processes and delete `backend/data/appointments.db`; it will be recreated at next startup.
 
-## Submission checklist
-
-- [ ] Add valid Google and ElevenLabs keys to `backend/.env`.
-- [ ] Start the API, Pipecat runner and Vite dashboard.
-- [ ] Complete one booking flow from the browser call screen.
-- [ ] Confirm the new appointment appears in the dashboard.
-- [ ] Record a short video (up to three minutes) showing the spoken phone number, read-back confirmation, availability check and successful booking.
-- [ ] Submit the repository link, video and [pipeline description](docs/PIPELINE_DESCRIPTION.md) in the assignment form.
-
-## License
-
-This project was prepared as an internship assignment demo. Review provider SDK licences and terms before redistribution or production use.
